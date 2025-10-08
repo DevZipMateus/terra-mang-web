@@ -29,11 +29,11 @@ const Gallery = () => {
             Conheça nossa linha completa de produtos para sua empresa
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {products.map((product, index) => (
               <div
                 key={index}
-                className="group relative overflow-hidden rounded-lg border border-border bg-card hover:shadow-xl transition-all duration-300"
+                className="group relative overflow-hidden rounded-lg border border-border bg-card hover:shadow-xl transition-all duration-300 flex flex-col"
               >
                 <div className="aspect-square overflow-hidden">
                   <img
@@ -43,22 +43,19 @@ const Gallery = () => {
                     loading="lazy"
                   />
                 </div>
-                <div className="p-4 bg-gradient-to-t from-background to-background/95">
+                <div className="p-4 bg-gradient-to-t from-background to-background/95 flex flex-col gap-3">
                   <h3 className="font-semibold text-foreground text-center">
                     {product.name}
                   </h3>
+                  <a
+                    href="https://wa.me/5511968421387"
+                    className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-4 text-sm font-medium transition-colors"
+                  >
+                    Mais informações
+                  </a>
                 </div>
               </div>
             ))}
-          </div>
-
-          <div className="text-center">
-            <a
-              href="https://wa.me/5511968421387"
-              className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8 font-medium transition-colors"
-            >
-              Para mais informações entre em contato
-            </a>
           </div>
         </div>
       </div>
