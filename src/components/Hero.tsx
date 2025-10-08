@@ -15,8 +15,9 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="pt-32 pb-20 md:pt-40 md:pb-32 bg-gradient-to-b from-muted/30 to-background">
-      <div className="container mx-auto px-4">
+    <section id="hero" className="pt-32 pb-20 md:pt-40 md:pb-32 relative bg-gradient-to-b from-muted/30 to-background">
+      <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url(/hero-background.jpg)' }} />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
             Terra Mang Com e Import de Mangueiras e Conexões
