@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Terra Mang Com e Import de Mangueiras e Conexões
+            Terra Mang
           </h1>
           <h2 className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
             Especialistas em montagem de mangueiras hidráulicas, conexões e materiais para indústria desde 2007
