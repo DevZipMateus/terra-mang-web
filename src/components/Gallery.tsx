@@ -16,7 +16,7 @@ const Gallery = () => {
     { image: "/galeria/lubrificantes_em_geras.jpg", name: "Lubrificantes em geral", type: "image" },
     { image: "/galeria/abrasivos.jpg", name: "Abrasivos", type: "image" },
     { image: "/galeria/amarracao_de_cargas.jpg", name: "Amarração de cargas", type: "image" },
-    { image: "/galeria/pistolas_de_pintura_.mp4", name: "Pistolas de pintura", type: "video" },
+    { image: "/galeria/pistolas_de_pintura.jpg", name: "Pistolas de pintura", type: "image" },
   ];
 
   return (
