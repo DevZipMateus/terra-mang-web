@@ -24,9 +24,9 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
                     <p className="text-muted-foreground">
-                      215 Avenida Vitor Odorico Bueno
+                      Av. Santos Dumont, 525 - Laranja Azeda
                       <br />
-                      Terra Preta, Mairiporã
+                      Bom Jesus dos Perdões - SP, 12955-000
                     </p>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ const Contact = () => {
             {/* Map */}
             <div className="h-[400px] lg:h-full min-h-[400px] rounded-lg overflow-hidden shadow-lg border border-border">
               <iframe
-                src="https://maps.app.goo.gl/RkwthnHkV7wCQqtM8"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.8!2d-46.4384!3d-23.2145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef0b4e4b4b4b4%3A0x1!2sAv.%20Santos%20Dumont%2C%20525%20-%20Laranja%20Azeda%2C%20Bom%20Jesus%20dos%20Perd%C3%B5es%20-%20SP%2C%2012955-000!5e0!3m2!1spt-BR!2sbr!4v1234567890!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
